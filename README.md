@@ -1,18 +1,25 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# SANvi v0.1.0 <img src="man/figures/sanvi_draft.png" align="right" width="120" />
+# SANvi v0.1.1 <img src="man/figures/sanvi_draft.png" align="right" width="120" />
 
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/Fradenti/SANvi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Fradenti/SANvi/actions/workflows/R-CMD-check.yaml)
+[![CRAN](https://www.r-pkg.org/badges/version/SANvi)](https://cran.r-project.org/package=SANvi)
+[![Last
+Commit](https://img.shields.io/github/last-commit/fradenti/SANvi)](https://github.com/fradenti/SANvi)
+[![Downloads
+(monthly)](https://cranlogs.r-pkg.org/badges/SANvi?color=brightgreen)](https://www.r-pkg.org/pkg/SANvi)
+[![Downloads
+(total)](https://cranlogs.r-pkg.org/badges/grand-total/SANvi?color=brightgreen)](https://www.r-pkg.org/pkg/SANvi)
 <!-- badges: end -->
 
 The goal of SANvi is to estimate Bayesian nested mixture models via
 variational Bayes methods. Specifically, the package implements the
 common atoms model (Denti et al., 2023), its finite version (D’Angelo et
 al., 2023), and a hybrid finite-infinite model (D’Angelo and Denti,
-2023+). All models use Gaussian mixtures with a normal-inverse-gamma
+2024+). All models use Gaussian mixtures with a normal-inverse-gamma
 prior distribution on the parameters. Additional functions are provided
 to help analyzing the results of the fitting procedure.
 
@@ -92,9 +99,9 @@ D’Angelo, L., Canale, A., Yu, Z., Guindani, M. (2023). Bayesian
 nonparametric analysis for the detection of spikes in noisy calcium
 imaging data. *Biometrics* 79(2), 1370–1382.
 
-D’Angelo, L., and Denti, F. (2023+). A finite-infinite shared atoms
+D’Angelo, L., and Denti, F. (2024+). A finite-infinite shared atoms
 nested model for the Bayesian analysis of large grouped data sets.
-*Working paper*, 1–23.
+*Working paper*, 1–34.
 
 Denti, F., Camerlenghi, F., Guindani, M., Mira, A., 2023. A Common Atoms
 Model for the Bayesian Nonparametric Analysis of Nested Data. *Journal
